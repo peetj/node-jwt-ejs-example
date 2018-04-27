@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <h1>
+        <%= title %>
+    </h1>
+    <p>Welcome to
+        <%= title %>
+    </p>
+
+    <form action="/signin" method="post">
+        <div class="box">
+            <h1>Dashboard</h1>
+    
+            <input type="email" name="email" value="email"class="email" />
+    
+            <input type="password" name="email" value="email"class="email" />
+    
+            <a href="#">
+                <input id="btn-submit" type="submit" />
+            </a>
+        </div>
+    </form>
+    <p>Forgot your password?
+        <u style="color:#f1c40f;">Click Here!</u>
+    </p>
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="javascripts/main.js"></script>
+</body>
+
+</html>
